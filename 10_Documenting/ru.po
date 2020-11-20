@@ -1,0 +1,90 @@
+# Russian translations for 0.0.1 package.
+# Copyright (C) 2020 THE 0.0.1'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 0.0.1 package.
+# penguin <mochalov.n@ya.ru>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-20 19:42+0300\n"
+"PO-Revision-Date: 2020-11-13 18:05+0300\n"
+"Last-Translator: penguin <mochalov.n@ya.ru>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: guess.c:175
+msgid ""
+"Guess is a simple terminal game\n"
+"\n"
+"Usage: guess [OPTION]\n"
+"\n"
+"Options:\n"
+"   -r  enable roman number mode\n"
+"   --help  print this help, then exit\n"
+"   --version  print version number, then exit\n"
+"\n"
+"It is a simple game where you choose a number in the range [1, 100] and the "
+"computer finds it by shrinking the remaining range by the factor of two\n"
+"\n"
+msgstr ""
+"Guess - это простая игра для терминала\n"
+"\n"
+"Использование: guess [ОПЦИЯ]\n"
+"\n"
+"Опции:\n"
+"   -r  включить режим римских цифр\n"
+"   --help  напечатать это сообщение и выйти\n"
+"   --version  напечатать версию и выйти\n"
+"\n"
+"Это простая игра, где вы выбираете число в отрезке [1, 100] и компьютер "
+"угадывает его, на каждом шаге сокращая отрезок чисел вдвое\n"
+"\n"
+
+#: guess.c:205
+#, c-format
+msgid "Choose a number in the range [I..C]\n"
+msgstr "Загадайте число в отрезке  [1..100]\n"
+
+#: guess.c:207
+#, c-format
+msgid "Choose a number in the range [1..100]\n"
+msgstr "Загадайте число в отрезке  [1..100]\n"
+
+#: guess.c:215
+#, c-format
+msgid "Is your number greater than %s? (%s/%s):"
+msgstr "Ваше число больше, чем %s? (%s/%s):"
+
+#: guess.c:215 guess.c:217 guess.c:227
+msgid "y"
+msgstr "д"
+
+#: guess.c:215 guess.c:217 guess.c:232
+msgid "n"
+msgstr "н"
+
+#: guess.c:217
+#, c-format
+msgid "Is your number greater than %d? (%s/%s):"
+msgstr "Ваше число больше, чем %d? (%s/%s):"
+
+#: guess.c:223
+#, c-format
+msgid "Invalid input\n"
+msgstr "Неправильный ввод\n"
+
+#: guess.c:239
+#, c-format
+msgid "Your number is %s\n"
+msgstr "Ваше число - это %s\n"
+
+#: guess.c:241
+#, c-format
+msgid "Your number is %d\n"
+msgstr "Ваше число - это %d\n"
